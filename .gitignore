@@ -63,12 +63,8 @@ modules.builtin
 #
 # Debian directory (make deb-pkg)
 #
-/debian/
-!/debian/changelog
-!/debian/rules
-!/debian/control
-!/debian/source
-!/debian/copyright
+/debian/*
+!/debian/.gitignore
 
 #
 # tar directory (make tar*-pkg)

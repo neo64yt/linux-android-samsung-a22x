@@ -1,0 +1,6 @@
+linux-android-samsung-a22x (0.0.0+git20260529091637.f7fc837.droidian+git20260531112642.6aa2a0d.droidian) trixie; urgency=medium
+
+  * Updated .gitignore
+
+ -- Neo64 <neo64@disroot.org>  Sun, 31 May 2026 19:26:42 +0800
+
