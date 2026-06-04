@@ -1,6 +1,6 @@
-linux-android-samsung-a22x (0.0.0+git20260529091637.f7fc837.droidian+git20260531112642.6aa2a0d.droidian+git20260531140018.815ab82.droidian) trixie; urgency=medium
+linux-android-samsung-a22x (0.0.0+git20260529091637.f7fc837.droidian+git20260531112642.6aa2a0d.droidian+git20260531140018.815ab82.droidian+git20260601123810.b46cce8.droidian) trixie; urgency=medium
 
-  * Adapted to Droidian
+  * Added kernel-info.mk
 
- -- Neo64 <neo64@disroot.org>  Sun, 31 May 2026 22:00:18 +0800
+ -- Neo64 <neo64@disroot.org>  Mon, 01 Jun 2026 20:38:10 +0800
 

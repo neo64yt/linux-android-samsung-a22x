@@ -11,7 +11,7 @@ VARIANT = android
 KERNEL_BASE_VERSION = 4.14.186
 
 # The kernel cmdline to use
-KERNEL_BOOTIMAGE_CMDLINE = bootopt=64S3,32N2,64N2 loop.max_part=7 break=bottom telnet
+KERNEL_BOOTIMAGE_CMDLINE = bootopt=64S3,32N2,64N2 loop.max_part=7 console=tty0 droidian.lvm.prefer cgroup_disable=schedtune
 
 # Slug for the device vendor. This is going to be used in the KERNELRELASE
 # and package names.
@@ -79,7 +79,7 @@ KERNEL_IMAGE_WITH_DTB_OVERLAY_IN_KERNEL = 0
 
 # Path to the prebuilt DT image. should only be defined on header version 1 and below. 
 # mostly used on samsung devices. default is to leave it undefined
-KERNEL_PREBUILT_DT = debian/dtb
+#KERNEL_PREBUILT_DT = debian/dtb
 
 # Various other settings that will be passed straight to mkbootimg
 # GKI devices can leave BASE_OFFSET, KERNEL_OFFSET, INITRAMFS_OFFSET, SECOND_OFFSET and TAGS_OFFSET empty
